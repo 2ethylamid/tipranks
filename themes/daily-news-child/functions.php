@@ -386,4 +386,9 @@ function get_new_tipranks_header() {
     <?php
 }
 
-wp_enqueue_script('autocomplete', get_stylesheet_directory_uri(). '/js/autocomplete.js', array('jquery'));
+
+function run_autocomplete_js() {
+    wp_enqueue_script('autocomplete', get_stylesheet_directory_uri(). '/js/autocomplete.js', array('jquery'));
+}
+
+add_action('wp_enqueue_scripts', 'run_autocomplete_js');

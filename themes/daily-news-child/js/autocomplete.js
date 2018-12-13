@@ -26,7 +26,7 @@
                     for (var i = 0; i < data.length; i++) {
 
                         if (data[i]['category'] === 'ticker') {
-                            
+
                             console.log(data[i]);
 
                             $(".client-components-search-auto-complete__loader").hide();
