@@ -288,7 +288,7 @@ function get_new_tipranks_header() {
                             <div class="tr-auth-menu  open ">
                                 <div style="display: flex; align-items: center; width: auto;">
                                     <div class="main-button">
-                                        <button>Login</button> / <button>Sign Up</button>
+                                        <button onclick="window.location='https://www.tipranks.com/sign-in?redirectTo=%2Fratings'">Login</button> / <button onclick="window.location='https://www.tipranks.com/sign-up?llf=header-sign-up&pageName=sign-in&redirectTo=%2Fratings'">Sign Up</button>
                                     </div>
                                 </div>
                             </div>
