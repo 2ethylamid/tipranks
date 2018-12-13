@@ -1,0 +1,301 @@
+/*
+Theme Name: Soshace Blog 2018 v2
+Author: Daniil Tkachev
+Description: Soshace Blog 2018 v2 with list mode of categories
+Version: 0.1.2
+Tags: soshace
+*/
+
+.archive .user a img {
+	border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.archive .user a:hover span {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.archive .user a span {
+    border-bottom: 0;
+}
+
+.archive .articles__item__image a:hover {
+    border-bottom: 0;
+}
+
+/**
+ 	for the v2
+**/
+
+@media only screen and (min-width: 992px) {
+	.archive .articles__item {
+		width: 100%;
+	}
+
+	.articles__item__image {
+
+	}
+
+    .archive .articles__item__desc {
+        margin-top: 0;
+    }
+
+    .archive .container {
+        max-width: 960px !important;
+    }
+
+    .single .col-md-9 {
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    .single  .col-md-3 {
+
+    }
+
+    .single .col.img-container .centered-overflown-img{
+        margin: 0;
+        position: absolute;
+    }
+
+    .single .dt-email-download-container .form-container {
+        width: 88%;
+    }
+
+    .single input[type="checkbox"] + label, input[type="radio"] + label {
+        padding-left: 0;
+        display: inline-block;
+    }
+
+    .single .dt-email-download-container .good-feedback,
+    .single .dt-email-download-container .bad-feedback {
+        line-height: 0;
+    }
+
+    .single .dt-email-download-container .form-container {
+        padding: 25px 0;
+    }
+
+    .single .dt-email-download-container input.form-control {
+        height: 3em;
+        margin-bottom: 0.7em;
+    }
+
+    .single .dt-email-download-container .form-container .form-row .col {
+        height: 74px;
+    }
+
+    .single .dt-email-download-container .form-container .form-row .col.last-col {
+        height: 58px;
+    }
+
+    #dt-email-download-form {
+
+    }
+
+    #dt-email-download-form label.form-check-label {
+        margin-bottom: 6px;
+    }
+
+    .single .social__list__item {
+
+    }
+
+    .single .social__list_horiz {
+        -webkit-box-pack: start;
+        -ms-flex-pack: initial;
+        -webkit-justify-content: left;
+        justify-content: left;
+    }
+
+    .single .user__info__name {
+        display: inline-block;
+    }
+
+    .single .user__info__date {
+        display: inline-block;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 415px) {
+    .articles__item {
+        width: 100%;
+    }
+
+    .articles__item__desc {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .col-5.post_img,
+    .col-4.post_img {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-7.post_desc,
+    .col-8.post_desc {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .articles_col3.mb0 .articles__item {
+        width: 100% !important;
+    }
+
+
+}
+
+
+.archive .articles__item__info {
+    background: none;
+    padding: 0;
+}
+
+.archive .articles__item__info {
+    background: none;
+    padding: 0;
+}
+
+.container.archive .articles__item__info .user {
+    float: none;
+    display: inline-block;
+}
+
+.container.archive .articles__item__info .user a{
+    display: inherit;
+    padding-left: 0;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.container.archive .articles__item__info .date {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 200;
+    float: none;
+}
+
+.articles__item {
+    border-bottom: 1px solid #eee;
+}
+
+.view-count {
+    margin-left: 20px;
+    color: #aaa;
+}
+
+.nobackground {
+    background: none !important;
+    width: initial !important;
+}
+
+.pages ul li.current {
+    background: #f2f2f2;
+}
+
+.articles_col3.mb0 .articles__item {
+    width: 33%;
+    border: none;
+}
+
+.articles_col3.mb0 .articles__item__desc h4 {
+    margin-top: 10px;
+}
+
+.articles_col3.mb0 .articles__item .articles__item__info {
+    background: #f7f7f7;
+    padding: 5px 3px 5px 3px;
+}
+
+.articles_col3.mb0 .articles__item .articles__item__info .date {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.articles_col3.mb0 .articles__item .articles__item__info .user a img {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+}
+
+.articles_col3.mb0 .articles__item .user a {
+    padding: 5px 0 5px 8px;
+}
+
+.text-c {
+    margin-top: 20px;
+}
+
+#close-cross {
+    top: 12px;
+}
+
+.dt-email-download-container img.centered-overflown-img  {
+    margin: 0;
+}
+
+.breadcrumbs {
+    font-size: 0.8em;
+}
+
+.breadcrumbs a {
+    color: #000;
+}
+
+.logo img {
+    display: inline-block;
+}
+
+.logo .logo_blog {
+    background: orange;
+    color: #fff;
+    font-weight: 600;
+    padding: 2px 6px;
+    margin-left: 10px;
+    border-radius: 1px;
+    font-size: 1.2em;
+}
+
+.single .dt-email-download-container .form-container {
+    padding: 16px 0 16px 0;
+}
+
+#dt-email-download-form input[type="checkbox"] + label:after {
+    display: none;
+}
+
+#dt-sendpulse-subscribe-form input[type="checkbox"] + label:before,
+#dt-sendpulse-subscribe-form input[type="checkbox"] + label:after,
+#dt-sendpulse-subscribe-form input[type="radio"] + label:before,
+#dt-sendpulse-subscribe-form input[type="radio"] + label:after {
+    display: none;
+}
+
+#dt-sendpulse-subscribe-form .good-feedback,
+#dt-sendpulse-subscribe-form .bad-feedback {
+    line-height: 0 !important;
+}
+
+#dt-sendpulse-subscribe-form .dt-form-agree-terms input[type="checkbox"] + label {
+    margin-bottom: 8px;
+}
+
+.col-5.post_img {
+    width: 41%;
+    float: left;
+}
+
+.col-7.post_desc {
+    width: 58%;
+    float: right;
+}
+
+.justify-content-center .col-md-9 {
+    margin: 0 auto;
+}

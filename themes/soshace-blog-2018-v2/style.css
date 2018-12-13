@@ -1,0 +1,334 @@
+/*
+Theme Name: Soshace Blog 2018 v2
+Author: Daniil Tkachev
+Description: Soshace Blog 2018 v2 with list mode of categories
+Version: 0.1.2
+Tags: soshace
+*/
+
+
+.current {
+	background: #eee !important;
+}
+
+.pages  {
+	margin-top: 30px;
+}
+
+.pages ul li.nobackground {
+	width: auto !important;
+}
+
+.view-count {
+	margin-left: 10px;
+}
+
+#dt-sendpulse-ajax-result {
+	display: none;
+}
+
+#dt-sendpulse-ajax-result-close {
+	display: none;
+}
+
+#dt-sendpulse-subscribe-form {
+	display: none;
+}
+
+#sendpulse-popup {
+	bottom: -301px;
+}
+
+.showup {
+	bottom: -214px !important;
+}
+
+.open {
+	bottom: -118px !important;
+    padding-top: 40px !important;
+}
+
+.dt-CTA-container {
+	background: #eee;
+	padding: 13px 13px 6px;
+	margin-bottom: 30px;
+}
+
+.dt-CTA-container .row {
+	margin: 0;
+}
+
+#dt-CTA-form .form-row .col {
+	height: 60px;
+}
+
+#dt-CTA-form h4 {
+    margin-left: 5px;
+}
+
+#dt-CTA-form .form-row .col.CTA-checkbox-col {
+	height: 42px;
+}
+
+
+
+#dt-CTA-form .form-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -5px;
+	margin-left: -5px;
+}
+
+#dt-CTA-form .form-row>.col, #dt-CTA-form .form-row>[class*=col-] {
+	 padding-right: 5px;
+	 padding-left: 5px;
+}
+
+#dt-CTA-form .col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: auto;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+#dt-CTA-form .form-control {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#dt-CTA-form .col.textarea {
+	height: 113px;
+}
+
+#ct-CTA-form .book_id-label,
+#ct-CTA-form .form-check-label {
+	margin-left: 10px;
+}
+
+
+.dt-CTA-container button[type=submit] {
+	margin-top: 10px;
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#ctaTermsIncorrect {
+}
+
+.cli-modal-backdrop.cli-show {
+	z-index: 8000;
+}
+
+.titleWrap {
+    margin-bottom: 40px;
+}
+
+.mobile_only {
+	display: none;
+}
+
+.desktop_only {
+	display: block;
+}
+
+.breadcrumbs, .search_results {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+}
+
+.row .breadcrumbs {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.breadcrumbs a {
+	color: #555;
+}
+
+code {
+    color: #e83e8c;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+pre {
+    background: #F7F7F7;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.tooltip {
+	background: #d32f2f;
+	/* display: none; */
+	font-size: 16px;
+	color: #fff !important;
+	font-weight: 500 !important;
+	font-size: 14px;
+	position: absolute;
+	padding: .8rem 1.5rem 1.1rem;
+	white-space: nowrap;
+	margin-top: -60px !important;
+	margin-left: -16em !important;
+	line-height: 0;
+	padding-top: 15px;
+}
+
+.tooltip:before {
+	right: -16px;
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0.7rem 0.7rem 0.7rem;
+	border-color: transparent transparent #d32f2f transparent;
+	position: absolute;
+	top: 0.68rem;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+#dt-feedback-form #feedbackTermsIncorrect {
+	bottom: 18px;
+	margin-left: -17.6em !important;
+}
+
+@media (max-width: 991px) {
+
+	.mobile_only {
+		display: block;
+		margin-top: 30px;
+		margin-left: 0px;
+        margin-bottom: 30px;
+	}
+
+	.desktop_only {
+		display: none;
+	}
+
+	.tooltip {
+		margin-left: 0 !important;
+		margin-top: -6px !important;
+		z-index: 99;
+	}
+
+	#dt-feedback-form #feedbackTermsIncorrect {
+		margin-left: 0 !important;
+		margin-top: -6px !important;
+		z-index: 99;
+		max-width: 15rem;
+		bottom: -1rem;
+	}
+
+	.tooltip:before {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		top: -10px;
+		left: 9px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	#dt-feedback-form #feedbackTermsIncorrect {
+		margin-left: 0 !important;
+		margin-top: -6px !important;
+		z-index: 99;
+		max-width: 15rem;
+		bottom: 5em;
+	}
+}
+
+@media (max-width: 750px) {
+
+	.showup {
+		bottom: -145px !important;
+	}
+
+	#sendpulse-popup.showup.open {
+		padding-top: 44px !important;
+		bottom: -115px !important;
+	}
+
+	#sendpulse-popup.showup {
+		padding-top: 4px !important;
+	}
+    .breadcrumbs {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+	.open {
+		bottom: -10px !important;
+	}
+
+    #sendpulse-popup.showup.open {
+        padding-top: 44px !important;
+        bottom: 0px !important;
+    }
+
+	#dt-sendpulse-subscribe-form .good-feedback, #dt-sendpulse-subscribe-form .bad-feedback {
+		margin-top: 0 !important;
+	}
+}
+
+@media (min-width: 651px) {
+	#dt-sendpulse-subscribe-form #popupTermsIncorrect {
+		margin-top: -43px;
+	}
+}
+
+@media (max-width: 420px) {
+	#sendpulse-popup.showup.open {
+		bottom: -3px !important;
+	}
+
+	#dt-sendpulse-ajax-result-close {
+		float: none !important;
+		width: 100%;
+	}
+
+	#sendpulse-popup.showup.open.result {
+		padding-top: 13px !important;
+		bottom: -167px !important;
+	}
+
+    .pages ul li.nobackground {
+        display: none;
+    }
+}
+
+@media (min-width: 551px) {
+	.dt-email-download-container .row {
+		height: 385px;
+	}
+
+	.dt-email-download-container .img-container img {
+		height: 100%;
+	}
+}
