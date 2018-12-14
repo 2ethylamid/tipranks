@@ -2,6 +2,19 @@
 
     $(document).ready(function(){
 
+        $('.client-components-mobile-container-menu-items__header-item-text.client-components-mobile-container-menu-items__hasItems').click(function(){
+
+            if ($(this).next().height() > 0) {
+                $(this).next().css({'max-height': '0', 'visibility' : 'invisible'});
+                $(this).removeClass('client-components-mobile-container-menu-items__isOpen');
+            } else {
+                $(".client-components-mobile-container-menu-items__header-items.client-components-mobile-container-menu-items__header-items-level-2").css({'max-height': '0', 'visibility' : 'invisible'});
+                $(this).addClass('client-components-mobile-container-menu-items__isOpen');
+                $(this).after().toggleClass('rotate90');
+                $(this).next().css({'max-height': '100px', 'visibility' : 'visible'});
+            }
+        });
+
         $('label.menu.link').click(function(){
             $('.client-components-SlidingMenuWrapper-styles__wrapper').toggleClass('slideLeft');
         });
