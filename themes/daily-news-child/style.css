@@ -13,10 +13,7 @@ Text Domain: daily-news
 Template: daily-news
 
 */
-@font-face{font-family:'Proxima Nova Condensed Bold';
 
-src:url(mark_simonson_proxima_nova_alt_bold-webfont.ttf);
-}
 .mver{display:none;}
 .feed-link-wrap{display:none;}
 .post-wrap .category-list ul li a ,.latest-slider-wrap .item-wrap .item .category ul li a{

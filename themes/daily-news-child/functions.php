@@ -165,18 +165,6 @@ function get_new_tipranks_header() {
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li class="client-components-header-header-menu__menuItemWrapper block-chosen level-1">
-                                                        <div class="textWrapper itemHasItems level-1">
-                                                            <div class="link text" type="div">TipRanks Newsletter</div>
-                                                        </div>
-                                                        <ul class="list level-1">
-                                                            <li class="client-components-header-header-menu__menuItemWrapper block-chosen level-2">
-                                                                <div class="textWrapper itemNoItems level-2">
-                                                                    <a class="link text" href="http://tipranks.com/smart-investor/pricing/?llf=smart-investor-nl-menu">Smart Investor</a>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
                                                 </ul>
                                                 <ul class="client-components-header-header-menu__innerList">
                                                     <li class="client-components-header-header-menu__menuItemWrapper level-1">

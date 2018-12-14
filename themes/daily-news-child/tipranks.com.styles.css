@@ -36501,10 +36501,11 @@ input {
 }
 
 @font-face {
-    font-family: Proxima Nova Condensed Bold;
+    font-family: "Proxima Nova Condensed Bold";
     src: url(/fonts/mark_simonson_-_proxima_nova_alt_condensed_bold-webfont.eot);
     src: url(/fonts/mark_simonson_-_proxima_nova_alt_condensed_bold-webfont.eot?#iefix) format("embedded-opentype"), url(/fonts/mark_simonson_-_proxima_nova_alt_condensed_bold-webfont.woff) format("woff"), url(/fonts/mark_simonson_-_proxima_nova_alt_condensed_bold-webfont.ttf) format("truetype"), url(/fonts/mark_simonson_-_proxima_nova_alt_condensed_bold-webfont.svg#svgFontName) format("svg")
 }
+
 
 @font-face {
     font-family: HelveticaNeueExtended;
@@ -39383,7 +39384,7 @@ strong {
 
 .client-components-header-header-menu__button {
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     display: inline-block;
     box-sizing: border-box;
     top: 16px;
@@ -40143,7 +40144,7 @@ ul.header-tickers li a:hover {
     display: flex;
     background-color: #232323;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAAAAADhOQgPAAAAKklEQVQIHQWAAQ0AIADCOBLF/g0Fl4u6EU5pnXUCsidxlBWbRZPwC0bdPjBDE0AOyckmAAAAAElFTkSuQmCC");
-    height: 88px;
+    height: 61px;
 }
 
 .client-components-header-header__search {
