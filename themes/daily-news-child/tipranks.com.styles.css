@@ -38664,7 +38664,7 @@ strong {
 @media (max-width:768px) {
     .tr-auth-menu .main-button.main-button a,
     .tr-auth-menu .main-button.main-button button {
-        font-size: 1.125rem
+        font-size: 2rem
     }
     .tr-auth-menu .main-button.main-button a,
     .tr-auth-menu.open .main-button.main-button button {
