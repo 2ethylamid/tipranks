@@ -12,7 +12,7 @@
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <link rel='stylesheet' href='<?php echo get_stylesheet_directory_uri() ?>/tipranks.com.styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='<?php echo get_stylesheet_directory_uri() ?>/tipranks.com.styles.css?ver=0.1.1' type='text/css' media='all' />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); ?>
 </head>

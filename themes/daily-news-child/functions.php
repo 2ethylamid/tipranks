@@ -84,7 +84,7 @@ function get_new_tipranks_header() {
                                                 </div>
                                             </div>
                                             <form class="client-components-search-auto-complete__form">
-                                                <input class="client-components-search-auto-complete__input" placeholder="Type a Stock" value="" name="top_search_autocomplete">
+                                                <input class="client-components-search-auto-complete__input" placeholder="Type an Expert Name or Stock" value="" name="top_search_autocomplete">
                                                 <img src="http://tipranks.com/new-images/loading_smallest.gif" class="client-components-search-auto-complete__loader">
                                             </form>
                                         </div>
