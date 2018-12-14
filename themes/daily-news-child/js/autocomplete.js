@@ -2,6 +2,10 @@
 
     $(document).ready(function(){
 
+        $('label.menu.link').click(function(){
+            $('.client-components-SlidingMenuWrapper-styles__wrapper').toggleClass('slideLeft');
+        });
+
         $('input[name=top_search_autocomplete]').focusout(function(){
             $(".client-components-search-search-results__wrapper ul").html('');
             $(".client-components-search-search-results__wrapper").hide();

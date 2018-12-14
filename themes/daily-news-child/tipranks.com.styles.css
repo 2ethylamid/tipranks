@@ -33524,7 +33524,7 @@ div.client-components-stock-research-news-sentiment-styles__removeMinHeight {
     font-size: 1rem;
     text-align: center;
     vertical-align: top;
-    padding: .0625rem .625rem 0;
+    padding: .0625rem 2.625rem 0;
     font-family: Proxima Nova Regular, Arial, Sans-serif, Helvetica, sans-serif;
     color: #fff
 }
@@ -33593,7 +33593,8 @@ div.client-components-stock-research-news-sentiment-styles__removeMinHeight {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    display: none;
 }
 
 .client-components-mobile-container-menu-header__leftSide {
@@ -40205,6 +40206,9 @@ ul.header-tickers li a:hover {
     .client-components-header-header__mobileHeader {
         display: initial
     }
+    .client-components-mobile-container-menu-header__rightSide {
+        display: block;
+    }
 }
 
 .client-components-header-header__goPro {
@@ -43810,7 +43814,12 @@ section.client-components-stock-research-smart-score-style__topSection {
 }
 
 .client-components-SlidingMenuWrapper-styles__wrapper.client-components-SlidingMenuWrapper-styles__right {
-    left: 100%
+    left: 125%;
+    top: 60px;
+}
+
+.client-components-SlidingMenuWrapper-styles__wrapper.client-components-SlidingMenuWrapper-styles__right.slideLeft {
+    left: 100%;
 }
 
 .client-components-SlidingMenuWrapper-styles__wrapper.client-components-SlidingMenuWrapper-styles__right.client-components-SlidingMenuWrapper-styles__open {
