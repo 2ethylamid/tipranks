@@ -81,6 +81,32 @@ function get_new_tipranks_header() {
 
                                                         </div>
                                                     </button>
+                                                    <ul class="client-components-search-category-menu__ul">
+                                                        <li class="client-components-search-category-menu__li client-components-search-category-menu__selected" id="all">
+                                                            <img src="http://tipranks.com/new-images/search-all-grey.png" class="client-components-search-category-menu__img">All
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true" style="display: block;"></i>
+                                                        </li>
+                                                        <li class="client-components-search-category-menu__li" id="stocks">
+                                                            <img src="http://tipranks.com/new-images/search-companies-grey.png" class="client-components-search-category-menu__img">Companies / Stocks
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true"></i>
+                                                        </li>
+                                                        <li class="client-components-search-category-menu__li" id="analysts">
+                                                            <img src="http://tipranks.com/new-images/search-analysts-grey.png" class="client-components-search-category-menu__img">Wall Street Analysts
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true"></i>
+                                                        </li>
+                                                        <li class="client-components-search-category-menu__li" id="bloggers">
+                                                            <img src="http://tipranks.com/new-images/search-bloggers-grey.png" class="client-components-search-category-menu__img">Financial Bloggers
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true"></i>
+                                                        </li>
+                                                        <li class="client-components-search-category-menu__li" id="insiders">
+                                                            <img src="http://tipranks.com/new-images/search-insiders-grey.png" class="client-components-search-category-menu__img">Corporate Insiders
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true"></i>
+                                                        </li>
+                                                        <li class="client-components-search-category-menu__li" id="institutions">
+                                                            <img src="http://tipranks.com/new-images/search-hedge-grey.png" class="client-components-search-category-menu__img">Hedge Funds
+                                                            <i class="fa fa-check client-components-search-category-menu__check" aria-hidden="true"></i>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                             <form class="client-components-search-auto-complete__form">
@@ -105,7 +131,7 @@ function get_new_tipranks_header() {
                                         <div class="client-components-header-header-search__searchResults">
                                             <div>
                                                 <div class="client-components-search-search-results__wrapper undefined" style="display: none;">
-                                                    <ul>
+                                                    <ul class="basic_ul">
 
                                                     </ul>
                                                 </div>
@@ -291,7 +317,7 @@ function get_new_tipranks_header() {
                         <div class="client-components-header-header__inbox">
                             <div class="client-components-notification-inbox-notification-inbox__inbox">
                                 <button class="client-components-notification-inbox-notification-inbox__bellButton" data-unread-notifications="0">
-                                    <i class="fa fa-bell" style="font-size: 15px;"></i>
+                                    <i class="fa fa-bell" style="font-size: 16px;"></i>
                                 </button>
                                 <div class="client-components-notification-inbox-notification-inbox__notificationArea">
                                     <header>
@@ -604,7 +630,7 @@ function get_new_tipranks_header() {
                         <ul class="client-components-header-header-sub-menu__navList">
                             <li class="client-components-header-header-sub-menu__li">
                                 <div class="client-components-header-header-sub-menu__item">
-                                    <a href="http://tipranks.com/analysts/top" class="client-components-header-header-sub-menu__text active">Top 25 Analysts</a>
+                                    <a href="http://tipranks.com/analysts/top" class="client-components-header-header-sub-menu__text">Top 25 Analysts</a>
                                 </div>
                             </li>
                             <li class="client-components-header-header-sub-menu__li">
